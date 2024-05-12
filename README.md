@@ -5,9 +5,12 @@
 
 ## About
 
-webpAIge let's you chat with webpages using the Pathways framework to access in realtime the webpage's content and the Gemini ai model for chat completion.
+webpAIge unlocks real-time conversations with webpages. Powered by the Pathways framework, it gathers content in real-time, and then uses the Gemini AI model for chat completion.
 
 ## Demo
+
+Click to see the demo
+
 [![Video Demo](./assets/video_thumbnail.png)](https://www.youtube.com/watch?v=-CwuSbPkDtA)
 
 ## Prerequisites
