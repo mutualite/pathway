@@ -1,6 +1,6 @@
 <div align="center">
-     <h1>webpAIge</h1>
-    <p align="center"> Chat with webpages </p>
+<h1>webpAIge</h1>
+<p align="center"> Chat with webpages </p>
 </div>
 
 ## About
