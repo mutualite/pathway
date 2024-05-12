@@ -30,7 +30,7 @@ webpAIge let's you chat with webpages using the Pathways framework to access in 
     ```
 
 3. Create a .env file with following content
-    ```sh
+    ```env
     GEMINI_API_TOKEN= {YOUR_API_TOKEN}
     EMBEDDER_LOCATOR=models/text-embedding-004
     EMBEDDING_DIMENSION=768
