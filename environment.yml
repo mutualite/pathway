@@ -1,0 +1,5 @@
+name: webpAIge_env
+
+dependencies:
+  - python=3.11.7
+  - pip

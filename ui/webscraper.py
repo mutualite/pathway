@@ -26,15 +26,23 @@ def scrape_webpage(url_list):
 
             title = soup.title.string
 
-            soup.head.decompose()
+            if soup.find('head'):
+                soup.head.decompose()
 
             # Remove the header
             header = soup.find('header')
-            header.decompose()
+            if header:
+                header.decompose()
 
             # Remove the footer
             footer = soup.find('footer')
-            footer.decompose()
+            if footer:
+                footer.decompose()
+
+            # Remove the nav
+            nav = soup.find('nav')
+            if nav:
+                nav.decompose()
 
             all_tags = soup.find_all()
 
