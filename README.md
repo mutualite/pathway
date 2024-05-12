@@ -3,6 +3,36 @@
 <p align="center"> Chat with webpages </p>
 </div>
 
+<details>
+  <summary>Table of Contents</summary>
+	<ol>
+	<li>
+ 	<a href="#about">About</a>
+  	</li>
+	<li>
+	<a href="#demo">Demo</a>
+	</li>
+        <li>
+        <a href="#prerequisites">Prerequisites</a>
+        </li>
+        <li>
+        <a href="#installation">Installation</a>
+        </li>
+        <li>
+        <a href="#running">Running</a>
+		<ul>
+		<li>
+			<a href="#starting-the-pathway-backend">Starting pathway backend</a>
+		</li>
+                <li>
+                        <a href="#starting-the-streamlit-ui">Starting Streamlit UI</a>
+                </li>		
+		<ul>
+        </li>
+  </ol>
+</details>
+
+
 ## About
 
 webpAIge unlocks real-time conversations with webpages. Powered by the Pathways framework, it gathers content in real-time, and then uses the Gemini AI model for chat completion.
