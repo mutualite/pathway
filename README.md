@@ -47,7 +47,7 @@ Click to see the demo
 1. Install [conda](https://docs.conda.io/projects/conda/en/stable/)
 2. Create an [Gemini API Key](https://ai.google.dev/) 
 
-    Then, follow the easy steps to install and get started using the sample app.
+    Then, follow the easy steps to install and get started using the app.
 
 ## Installation
 
