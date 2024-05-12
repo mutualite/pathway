@@ -3,7 +3,6 @@ import os
 import pathway as pw
 from pathway.xpacks.llm.embedders import LiteLLMEmbedder
 from pathway.xpacks.llm.llms import LiteLLMChat, prompt_chat_single_qa
-
 import google.generativeai as genai
 
 load_dotenv()

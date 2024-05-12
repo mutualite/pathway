@@ -23,7 +23,7 @@ def run(host, port):
     )
 
 
-    # Compute embeddings for each document
+    # Compute embeddings
     embedded_data = embeddings(context=input_data, data_to_embed=input_data.doc)
 
     # Construct an index on the generated embeddings in real-time

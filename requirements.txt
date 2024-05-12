@@ -1,0 +1,7 @@
+pathway
+python-dotenv
+google-generativeai
+litellm==1.17.3
+streamlit
+beautifulsoup4
+unstructured[all-docs]

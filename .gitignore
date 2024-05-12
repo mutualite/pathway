@@ -1,4 +1,4 @@
 pw-env/
 __pycache__/
 **/.env
-.vscode/
+data/*.jsonl
