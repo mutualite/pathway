@@ -2,3 +2,4 @@ pw-env/
 __pycache__/
 **/.env
 data/*.jsonl
+**/logquery.txt

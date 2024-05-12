@@ -9,13 +9,27 @@ load_dotenv()
 api_host = os.environ.get("HOST", "api")
 api_port = int(os.environ.get("PORT", 8080))
 
-st.title("App")
+st.title("webpAIge")
 
-st.sidebar.title("APP")
-st.sidebar.write("Add Links:")
 
-website_links = st.sidebar.text_area("Paste Links (One per line)")
-upload_button = st.sidebar.button("Upload")
+#st.sidebar.title("APP")
+#st.sidebar.write("Add Links:")
+
+#website_links = st.sidebar.text_area("Paste Links (One per line)")
+#upload_button = st.sidebar.button("Upload")
+
+#st.sidebar.expander("About"):
+ #   st.write("[GitHub] (https://github.com/Shivsay/webpAIge)")
+
+with st.sidebar:
+    st.sidebar.write("Add Links:")
+
+    website_links = st.sidebar.text_area("Paste Links (One per line)")
+    upload_button = st.sidebar.button("Upload")
+
+    with st.expander("About"):
+        st.write("[GitHub](https://github.com/Shivsay/webpAIge)")
+
 if upload_button:
     if(website_links):
         with st.sidebar:

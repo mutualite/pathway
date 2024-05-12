@@ -1,5 +1,5 @@
 <div align="center">
-<h1>webpAIge</h1>
+<h3>webpAIge</h3>
 <p align="center"> Chat with webpages </p>
 </div>
 
