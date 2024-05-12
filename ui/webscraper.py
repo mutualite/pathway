@@ -44,21 +44,28 @@ def scrape_webpage(url_list):
             if nav:
                 nav.decompose()
 
-            all_tags = soup.find_all()
+            script = soup.find_all("script")
+            if script:
+                for sc in script:
+                    sc.decompose()
+
+
+            all_tags = soup.find_all("a")
 
             # Insert a space character between the tags
-            for i in range(len(all_tags) - 1):
-                all_tags[i].insert_after(' ')
+            #for i in range(len(all_tags) - 1):
+             #   all_tags[i].insert_after(' ')
             
             content_text = soup.get_text(" ", strip=True)
 
-            
-            
+            link_content = ""
+            for element in all_tags:
+                link_content += f"{element.get_text(' ',strip=True)}:{element.get('href')},"
 
             
             data.append({
                 "doc":
-                f"url: {u}, title: {title}, content_text: {content_text}"
+                f"url: {u}, title: {title}, content_text: {content_text}, links: '{link_content}'"
             })
         else :
             raise ValueError(f"Error in url: {u}")
