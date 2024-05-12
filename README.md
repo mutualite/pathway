@@ -5,7 +5,10 @@
 
 ## About
 
-webpAIge let's you chat with webpages using the Pathways framework to access in realtime the webpage's content.
+webpAIge let's you chat with webpages using the Pathways framework to access in realtime the webpage's content and the Gemini ai model for chat completion.
+
+## Demo
+
 
 ## Prerequisites
 1. Create an [Gemini API Key](https://ai.google.dev/) 
