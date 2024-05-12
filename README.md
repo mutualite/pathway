@@ -1,7 +1,7 @@
 <div align="center">
      <h1>webpAIge</h1>
 
-    Chat with webpages
+    <p align="center"> Chat with webpages </p>
 </div>
 
 ## About
