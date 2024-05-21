@@ -46,6 +46,12 @@ Click to see the demo
 [![Video Demo](./assets/video_thumbnail.png)](https://www.youtube.com/watch?v=-CwuSbPkDtA)
 
 ## Prerequisites
+If you have windows follow the steps given below ( if you have linux ignore these steps) :
+	-Go to powershell in run as administrator
+ 	-type wsl --install
+  	-go to the  desired location using << cd /mnt/c/desired location >>
+   	-follow the steps as given in installation
+  	
 1. Install [conda](https://docs.conda.io/projects/conda/en/stable/)
 2. Create an [Gemini API Key](https://ai.google.dev/) 
 
