@@ -36,6 +36,7 @@
 ## About
 
 webpAIge unlocks real-time conversations with webpages. Powered by the Pathways framework, it gathers content in real-time, and then uses the Gemini AI model for chat completion.
+Here is the architecture diagram of how it works .
 
 ## Demo
 
