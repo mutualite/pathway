@@ -47,10 +47,10 @@ Click to see the demo
 
 ## Prerequisites
 If you have windows follow the steps given below ( if you have linux ignore these steps) :
-	-Go to powershell in run as administrator
- 	-type wsl --install
-  	-go to the  desired location using << cd /mnt/c/desired location >>
-   	-follow the steps as given in installation
+	1.Go to powershell in run as administrator
+ 	2.type wsl --install
+  	3.go to the  desired location using << cd /mnt/c/desired location >>
+   	4.follow the steps as given in installation
   	
 1. Install [conda](https://docs.conda.io/projects/conda/en/stable/)
 2. Create an [Gemini API Key](https://ai.google.dev/) 
