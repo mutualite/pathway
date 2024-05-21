@@ -65,7 +65,7 @@ If you have windows follow the steps given below ( if you have linux ignore thes
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/Shivsay/webpAIge.git
+    git clone https://github.com/mutualite/pathwayllm..git
     ```
 
 2. Create a conda environment using environment.yml file 
