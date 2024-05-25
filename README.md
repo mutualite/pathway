@@ -43,7 +43,7 @@ Here is the architecture diagram of how it works .
 
 Click to see the demo
 
-[![Video Demo](./assets/video_thumbnail.png)](https://youtu.be/Rp_X6lrcTTs)
+[![Video Demo](./assets/Screenshot 2024-05-25 114431.png)](https://youtu.be/Rp_X6lrcTTs)
  You can follow this link  https://youtu.be/Rp_X6lrcTTs
 ## Prerequisites
 If you have windows follow the steps given below ( if you have linux ignore these steps) :
